@@ -165,7 +165,7 @@ int main()
     bst_delete(&bstree, 47);
     bst_travel(bstree.root);
     printf("\n------------------------\n");
-    printf("delete 22\n");
+    printf("delete 62\n");
     bst_delete(&bstree, 62);
     bst_travel(bstree.root);
     return 0;
