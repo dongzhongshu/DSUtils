@@ -19,7 +19,7 @@ int leaf;
 
 typedef struct _btree{
     btree_node* root;
-    int t;
+    int t;//度数,最大关键字数为[t-1,2t-1];最大childrens为[t,2t]
 }btree;
 
 btree_node* btree_create_node(int t, int leaf);
